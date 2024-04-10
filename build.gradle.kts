@@ -20,8 +20,6 @@ loom {
 			sourceSet(sourceSets["main"])
 		}
 	}
-
-	accessWidenerPath = file("src/main/resources/letmeteleport.accesswidener")
 }
 
 dependencies {
