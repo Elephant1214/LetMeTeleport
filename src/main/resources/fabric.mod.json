@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "letmeteleport",
+    "version": "${version}",
+    "name": "Let Me Teleport",
+    "description": "A simple mod to stop your server from complaining about players moving too quickly when they get teleported. Fixes https://bugs.mojang.com/browse/MC-248231.",
+    "authors": [
+        "Elephant_1214"
+    ],
+    "contact": {
+        "homepage": "https://fabricmc.net/",
+        "sources": "https://github.com/Elephant1214/LetMeTeleport"
+    },
+    "license": "DBAD",
+    "icon": "assets/letmeteleport/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.elephant1214.letmeteleport.LetMeTeleport"
+        ]
+    },
+    "mixins": [
+        "letmeteleport.mixins.json"
+    ],
+    "accessWidener" : "letmeteleport.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.15.0",
+        "minecraft": ">=1.20.1",
+        "java": ">=17"
+    }
+}

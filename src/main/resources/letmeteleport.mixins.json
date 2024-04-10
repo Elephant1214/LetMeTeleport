@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "me.elephant1214.letmeteleport.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "ServerPlayNetworkHandlerMixin",
+        "accessor.ServerPlayerEntityAccessor"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+	}
+}
