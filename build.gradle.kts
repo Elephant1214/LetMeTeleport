@@ -44,7 +44,7 @@ tasks {
 	}
 
 	withType<Jar> {
-		from(rootProject.file("LICENSE.md"))
+		from(rootProject.file("LICENSE"))
 	}
 }
 

@@ -8,8 +8,9 @@
         "Elephant_1214"
     ],
     "contact": {
-        "homepage": "https://fabricmc.net/",
-        "sources": "https://github.com/Elephant1214/LetMeTeleport"
+        "homepage": "https://github.com/Elephant1214/LetMeTeleport",
+        "sources": "https://github.com/Elephant1214/LetMeTeleport",
+        "issues": "https://github.com/Elephant1214/LetMeTeleport/issues"
     },
     "license": "DBAD",
     "icon": "assets/letmeteleport/icon.png",
@@ -24,7 +25,7 @@
     ],
     "depends": {
         "fabricloader": ">=0.15.0",
-        "minecraft": ">=1.20.1",
+        "minecraft": "1.20.x",
         "java": ">=17"
     }
 }
