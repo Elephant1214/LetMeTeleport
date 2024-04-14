@@ -4,5 +4,5 @@
 ![Stars](https://img.shields.io/github/stars/Elephant1214/LetMeTeleport?style=for-the-badge)
 
 # Let Me Teleport
-A simple mod to stop your server from complaining about players moving too quickly when they get teleported.
+A simple mod that fixes the "*player* moved too quickly!" messages that are spammed in the console when the server tells a player to teleport more than ~100 blocks, whether by command or switching dimensions. It appears that Mojang tried to fix this, but they implemented their fix incorrectly and it does not work; this mod effectively fixes their broken fix.\
 Fixes [MC-248231](https://bugs.mojang.com/browse/MC-248231).
